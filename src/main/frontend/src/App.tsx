@@ -5,13 +5,15 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="app">
+    <div className="pagina">
       <header>
-        <h1>⚡ Pokédex Hoenn</h1>
+        <h1>Pokédex Hoenn</h1>
       </header>
-      <PokemonsPage />
-      <UsuariosPage />
-      <PermissoesPage />
+      <div className="app">
+        <PokemonsPage />
+        <UsuariosPage />
+        <PermissoesPage />
+      </div>
     </div>
   );
 }
